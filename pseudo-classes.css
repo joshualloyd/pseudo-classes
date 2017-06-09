@@ -1,0 +1,14 @@
+li {
+	list-style: none;
+	display: inline;
+}
+
+span {
+	display: block;
+	border: 1px black solid;
+	margin: 25px;
+}
+
+article.n-child section:nth-of-type(2n) {
+	border: 1px red solid;
+}
